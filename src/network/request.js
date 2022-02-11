@@ -14,6 +14,8 @@ instance.interceptors.request.use(config => {
 
   // 3.params/data序列化的操作
 
+  // test
+
   return config;
 }, err => {
 
