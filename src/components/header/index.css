@@ -1,0 +1,79 @@
+.header-wrap {
+  background-color: #242424;
+}
+.header-wrap .header-wrap-content {
+  display: flex;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left {
+  display: flex;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list {
+  display: flex;
+  justify-content: space-around;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list .select-item {
+  font-size: 14px;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list .select-item a {
+  position: relative;
+  padding: 27px 20px;
+  color: #ccc;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list .select-item:hover {
+  background-color: #000;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list .select-item:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list .active {
+  background-color: #000;
+  color: #fff !important;
+  text-decoration: none;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .select-list .active::after {
+  position: absolute;
+  top: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  display: block;
+  width: 28px;
+  height: 19px;
+  background-image: url("../../assets/img/sprite_01.png");
+  background-position: -218px 0;
+}
+.header-wrap .header-wrap-content .header-wrap-content-left .logo {
+  display: inline-block;
+  width: 176px;
+  height: 69px;
+  background-position: 0 0;
+}
+.header-wrap .header-wrap-content .header-wrap-content-right {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.header-wrap .header-wrap-content .header-wrap-content-right .search {
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+}
+.header-wrap .header-wrap-content .header-wrap-content-right .center {
+  line-height: 30px;
+  padding: 0 10px;
+  height: 30px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.header-wrap .header-wrap-divider {
+  height: 5px;
+  background-color: #C20C0C;
+}
