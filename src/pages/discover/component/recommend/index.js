@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import MyCarousel from "./component/carousel"
+import HotRecommend from "./component/hotRecommend"
 
 // import "./index.less"
 
@@ -7,6 +8,7 @@ function MyRecommend(props) {
   return (
     <div className='recommend'>
       <MyCarousel />
+      <HotRecommend />
     </div>
   );
 };
