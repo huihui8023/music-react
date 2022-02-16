@@ -9,7 +9,7 @@ const HotRecommend = memo(() => {
 
       </div>
       <div className="recommendRight">
-
+        xxx
       </div>
     </div>
   )
